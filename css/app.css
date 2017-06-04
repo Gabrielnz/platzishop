@@ -1,14 +1,15 @@
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-#header-container {
+#header-container,
+#info-container {
   background-color: #99c84a;
   color: white;
 }
 
 #menu-container {
   background-color: #f7f7f9;
+}
+
+.form-control:focus {
+  border-color: #99c84a;
 }
 
 .btn.btn-platzi {
@@ -20,6 +21,10 @@ body {
   background-color: #8ab542;
 }
 
-input.form-control:focus {
-  border-color: #99c84a;
+#search-bar {
+  padding: 1em;  
+}
+
+#info-container h4 {
+  text-align: center;
 }
