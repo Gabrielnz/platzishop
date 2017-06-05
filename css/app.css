@@ -32,3 +32,23 @@
 #productsCarousel img {
   margin: 0 auto;
 }
+
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+  padding: 3em 0;
+}
+
+#footer-container h4 {
+  font-size: 16px;
+}
+
+#footer-container .nav-link {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #footer-container [class*="col-"] {
+    margin-bottom: 2em;
+  }
+}
