@@ -77,13 +77,26 @@
   margin-top: 1em;
 }
 
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#paginator-container .page-item:not(.active):not(.disabled) .page-link{
+  color: #99c84a;
+}
+
 @media (max-width: 768px) {
   
   #footer-container [class*="col-"] {
     margin-bottom: 2em;
   }
 
-  #productos-container .filtros-toggle {
-    margin-bottom: 1em;
+  .listado-productos {
+    margin-top: 2em;
+  }
+
+  .listado-productos .card-img-top {
+    width: 100%;
   }
 }
